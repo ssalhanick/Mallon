@@ -556,3 +556,28 @@ h1 span{
   margin: 10px auto;
   text-indent: 10px;
 }
+
+.speaker-container{
+   display: block;
+   margin-top: 20px;
+}
+
+.speaker-container > h2, img, .byline, .bio{
+   position: relative;
+}
+
+.speaker-container > h2{
+   display: block;
+}
+
+.speaker-container > img{
+   width: 35%;
+   left: 0;
+}
+
+.speaker-container > .byline{
+   display: inline-block;
+   left: 0;
+   padding: 0;
+   margin: 0;
+}
